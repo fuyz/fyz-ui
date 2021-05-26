@@ -25,7 +25,7 @@ jobs:
       - name: 检查
         uses: actions/checkout@v2
         with:
-        persist-credentials: false
+          persist-credentials: false
 
       - name: 安装依赖、构建打包
         run: |
