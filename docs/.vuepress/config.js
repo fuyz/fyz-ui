@@ -1,7 +1,7 @@
 module.exports = {
   title: 'fyz-ui',
   description: 'fyz-ui官方文档',
-  base: '/', // '/build/':网站会被部署到一个非根路径: build
+  base: '/fyz-ui/', // '/build/':网站会被部署到一个非根路径: build
   // theme: 'vuepress-theme-xx',
   // webpack
   configureWebpack: {
