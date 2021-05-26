@@ -11,6 +11,7 @@ mkdir vuepress-starter && cd vuepress-starter
 ```
 yarn init
 ```
+or
 ```
 npm init
 ```
