@@ -197,15 +197,3 @@ export default {
 行数区间: 例如 {5-8}, {3-10}, {10-17}
 多个单行: 例如 {4,7,9}
 行数区间与多个单行: 例如 {4,7-13,16,23-27,40}
-
-
-Ordered
-
-    1. Lorem ipsum dolor sit amet
-    2. Consectetur adipiscing elit
-    3. Integer molestie lorem at massa
-
-
-
-
-
