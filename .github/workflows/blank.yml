@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI
+name: 自动部署
 
 # Controls when the action will run. 
 on:
@@ -21,13 +21,17 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v2
 
-      - name: Install and Build
+      - name: 检查
+        uses: actions/checkout@v2
+        with:
+        persist-credentials: false
+
+      - name: 安装依赖、构建打包
         run: |
           npm install
-          npm run build
-      - name: Deploy
+          npm run docs:build
+      - name: 部署
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with: 
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
