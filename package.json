@@ -1,0 +1,16 @@
+{
+  "name": "fyz-ui",
+  "version": "1.0.0",
+  "description": "组件库",
+  "main": "index.js",
+  "repository": "https://github.com/fuyz/fyz-ui.git",
+  "author": "fuyz <953958160@qq.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.8.2"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  }
+}
